@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogInfo.WebAPI", "DogInfo.WebAPI\DogInfo.WebAPI.csproj", "{38B0753E-91FB-431E-8391-B2CEA9925632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogInfo.WorkerService", "DogInfo.WorkerService\DogInfo.WorkerService.csproj", "{FDF50520-8830-4D1B-8D1F-4BDA758B7792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogInfo.Domain", "DogInfo.Domain\DogInfo.Domain.csproj", "{91831ECD-A93F-416E-8E71-66B1EE9F74BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogInfo.Application", "DogInfo.Application\DogInfo.Application.csproj", "{B05FDF30-2DFE-466A-8EDA-45446BEED901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogInfo.Infrastructure", "DogInfo.Infrastructure\DogInfo.Infrastructure.csproj", "{F7FC3912-CC95-4E90-AC52-8D9E98BD9AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogInfo.Persistence", "DogInfo.Persistence\DogInfo.Persistence.csproj", "{B2F8EF0B-0C03-490B-96DE-01FD424954BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogInfo.Jobs", "DogInfo.Jobs\DogInfo.Jobs.csproj", "{BA7707C1-18C9-4E5F-BAA5-F7232809682A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38B0753E-91FB-431E-8391-B2CEA9925632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B0753E-91FB-431E-8391-B2CEA9925632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B0753E-91FB-431E-8391-B2CEA9925632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B0753E-91FB-431E-8391-B2CEA9925632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF50520-8830-4D1B-8D1F-4BDA758B7792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF50520-8830-4D1B-8D1F-4BDA758B7792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF50520-8830-4D1B-8D1F-4BDA758B7792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF50520-8830-4D1B-8D1F-4BDA758B7792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91831ECD-A93F-416E-8E71-66B1EE9F74BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91831ECD-A93F-416E-8E71-66B1EE9F74BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91831ECD-A93F-416E-8E71-66B1EE9F74BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91831ECD-A93F-416E-8E71-66B1EE9F74BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05FDF30-2DFE-466A-8EDA-45446BEED901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05FDF30-2DFE-466A-8EDA-45446BEED901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05FDF30-2DFE-466A-8EDA-45446BEED901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05FDF30-2DFE-466A-8EDA-45446BEED901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FC3912-CC95-4E90-AC52-8D9E98BD9AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FC3912-CC95-4E90-AC52-8D9E98BD9AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FC3912-CC95-4E90-AC52-8D9E98BD9AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FC3912-CC95-4E90-AC52-8D9E98BD9AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F8EF0B-0C03-490B-96DE-01FD424954BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F8EF0B-0C03-490B-96DE-01FD424954BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F8EF0B-0C03-490B-96DE-01FD424954BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F8EF0B-0C03-490B-96DE-01FD424954BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7707C1-18C9-4E5F-BAA5-F7232809682A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7707C1-18C9-4E5F-BAA5-F7232809682A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7707C1-18C9-4E5F-BAA5-F7232809682A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7707C1-18C9-4E5F-BAA5-F7232809682A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

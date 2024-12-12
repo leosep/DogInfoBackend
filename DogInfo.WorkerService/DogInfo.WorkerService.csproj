@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-DogInfo.WorkerService-aabda313-ea77-450c-b732-9379e17f8ed1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.17" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.8.17" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DogInfo.Application\DogInfo.Application.csproj" />
+    <ProjectReference Include="..\DogInfo.Domain\DogInfo.Domain.csproj" />
+    <ProjectReference Include="..\DogInfo.Infrastructure\DogInfo.Infrastructure.csproj" />
+    <ProjectReference Include="..\DogInfo.Persistence\DogInfo.Persistence.csproj" />
+    <ProjectReference Include="..\DogInfo.Jobs\DogInfo.Jobs.csproj" />
+  </ItemGroup>
+</Project>
